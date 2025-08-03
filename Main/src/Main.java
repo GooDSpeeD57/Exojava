@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 //Exercice 1.6
+
 //     float valeura;
 //     float valeurb;
 //     float valeurc;
@@ -17,7 +18,9 @@ public class Main {
 //     valeura = valeurb;
 //     valeurb = valeurc;
 //     System.out.println("la valeur de a=b et b=a : a " +valeura + " de b est : " + valeurb);
+
 //Exercice 1.7
+
 //        float valeura=0;
 //        float valeurb=0;
 //        float valeurc=0;
@@ -33,73 +36,85 @@ public class Main {
 //        valeurb = valeurc;
 //        valeurc = valeurd;
 //        System.out.println("la valeur a=b b=c c=a est a : "+ valeura +" b : " + valeurb +"  C : " + valeurc);
+
 //exercice 2.1
-        //double prixHT;
-        //double prixTTC;
-        //double tVa = 1.2;
-        //double vTva;
-        //Scanner tva = new Scanner(System.in);
-        //System.out.println("Calcule de la TVA sur produit");
-        //prixHT = tva.nextDouble();
-        //prixTTC = (prixHT * tVa);
-        //vTva = (prixTTC - prixHT);
-        //System.out.println("Prix HT: " + prixHT + "Valeur de TVA: " + vTva + " Prix TTC: " + prixTTC);
-        //System.out.println("Valeur de TVA "+ vTva);
+
+//        double prixHT;
+//        double prixTTC;
+//        double tVa = 1.2;
+//        double vTva;
+//        Scanner tva = new Scanner(System.in);
+//        System.out.println("Calcule de la TVA sur produit");
+//        prixHT = tva.nextDouble();
+//        prixTTC = (prixHT * tVa);
+//        vTva = (prixTTC - prixHT);
+//        System.out.println("Prix HT: " + prixHT + "Valeur de TVA: " + vTva + " Prix TTC: " + prixTTC);
+//        System.out.println("Valeur de TVA "+ vTva);
+
 // exercice 2.2
-        //String nom;
-        //String prenom;
-        //Scanner np = new Scanner(System.in);
-        //System.out.println("Quelle est votre prénom ? ");
-        //prenom = np.nextLine();
-        //System.out.println("Quelle est votre nom ? ");
-        //nom = np.nextLine();
-        //System.out.println("Bonjour " + prenom + " votre nom est " + nom);
+
+//        String nom;
+//        String prenom;
+//        Scanner np = new Scanner(System.in);
+//        System.out.println("Quelle est votre prénom ? ");
+//        prenom = np.nextLine();
+//        System.out.println("Quelle est votre nom ? ");
+//        nom = np.nextLine();
+//        System.out.println("Bonjour " + prenom + " votre nom est " + nom);
+
 //exercice 2.3
-        //int va, vb;
-        //int resultat;
-        //Scanner input = new Scanner(System.in);
-        //System.out.println("somme de deux variable entier negative ou null ou positive ");
-        //va = input.nextInt();
-        //vb = input.nextInt();
-        //resultat = va + vb;
-        //if (resultat == 0) {
-        //    System.out.println(" le resultat est nul");
-        //} else
-        //    if (resultat < 0) {System.out.println(" le resultat est négatif");
-        //} else {
-        //        System.out.println(" le resultat est positif ");
-        //    }
-        //    System.out.println(":" + resultat);
+
+//        int va, vb;
+//        int resultat;
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("somme de deux variable entier negative ou null ou positive ");
+//        va = input.nextInt();
+//        vb = input.nextInt();
+//        resultat = va + vb;
+//        if (resultat == 0) {
+//            System.out.println(" le resultat est nul");
+//        } else
+//            if (resultat < 0) {System.out.println(" le resultat est négatif");
+//        } else {
+//                System.out.println(" le resultat est positif ");
+//            }
+//            System.out.println(":" + resultat);
+
 // exercice 3.1
-        //int resultat;
-        //Scanner sc = new Scanner(System.in);
-        //do {
-        //    System.out.println("tenter de trouver le n° entre 1 et 100 : ");
-        //    resultat = sc.nextInt();
-        //    if (resultat < 10) {
-        //        System.out.println("Plus grand");
-        //    } else if (resultat > 20) {
-        //        System.out.println("Plus petit");
-        //    } else {
-        //        System.out.println("bien joué");
-        //    }}
-        //    while (resultat < 10 || resultat > 20) ;
+
+//        int resultat;
+//        Scanner sc = new Scanner(System.in);
+//        do {
+//            System.out.println("tenter de trouver le n° entre 1 et 100 : ");
+//            resultat = sc.nextInt();
+//            if (resultat < 10) {
+//                System.out.println("Plus grand");
+//            } else if (resultat > 20) {
+//                System.out.println("Plus petit");
+//            } else {
+//                System.out.println("bien joué");
+//            }}
+//            while (resultat < 10 || resultat > 20) ;
+
 //exercice 3.2
-        //int resultat;
-        //int resultat2=1;
-        //System.out.println("Entrez un nombre pour calculer sa factorielle");
-        //Scanner sc = new Scanner(System.in);
-        //resultat = sc.nextInt();
-        //if (resultat ==1 || resultat ==0) {
-        //    resultat = 1;
-        //}else {
-        //    for (int i = 2; i <= resultat; i++) {
-        //       resultat2 = resultat2 * i;
-        //          }
-        //    }
-        //}
-        //System.out.println("la factorielle de "+resultat +" est "+resultat2);
+
+//        int resultat;
+//        int resultat2=1;
+//        System.out.println("Entrez un nombre pour calculer sa factorielle");
+//        Scanner sc = new Scanner(System.in);
+//        resultat = sc.nextInt();
+//        if (resultat ==1 || resultat ==0) {
+//            resultat = 1;
+//        }else {
+//            for (int i = 2; i <= resultat; i++) {
+//               resultat2 = resultat2 * i;
+//                  }
+//            }
+//        }
+//        System.out.println("la factorielle de "+resultat +" est "+resultat2);
+
 //exercice Pomme de terre
+
 //        int tour=0;
 //        int panier=3;
 //        int patate;
@@ -114,41 +129,9 @@ public class Main {
 //        }
 //        if(patate>0){tour=tour++;
 //        }
-//        System.out.println("il vous faudra "+tour +" voyage pour éplucher vos "+savpatate+" pomme de terre");
-//exercice 4
-//
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.print("Veuillez entrer un booléen (true/false): ");
-//        boolean booleen = scanner.nextBoolean();
-//        System.out.println("Vous avez entré le booléen: " + booleen);
-//
-//        System.out.print("Veuillez entrer un entier: ");
-//        int entier = scanner.nextInt();
-//        System.out.println("Vous avez entré l'entier: " + entier);
-//
-//        // Lecture d'un nombre décimal
-//        System.out.print("Veuillez entrer un nombre décimal: ");
-//        double decimal = scanner.nextDouble();
-//        System.out.println("Vous avez entré le nombre décimal: " + decimal);
-//
-//        // Lecture d'une chaîne de caractères
-//        System.out.print("Veuillez entrer une chaîne de caractères: ");
-//        String chaine = scanner.next();
-//        System.out.println("Vous avez entré la chaîne: " + chaine);
-//
-//        // Lecture d'un caractère
-//        System.out.print("Veuillez entrer un caractère: ");
-//        char caractere = scanner.next().charAt(0);
-//        System.out.println("Vous avez entré le caractère: " + caractere);
-//
-//        // Fermeture du scanner
-//        scanner.close();
-//
-//        // Exemple de sortie formatée
-//        System.out.printf("Voici vos entrées formatées: Entier = %d, Décimal = %.2f, " +
-//                        "Chaîne = %s, Caractère = %c, Booléen = %b%n",
-//                entier, decimal, chaine, caractere, booleen);
-//exercice01 While
+//        System.out.println("il vous faudra "+tour+" voyage pour éplucher vos "+savpatate+" pomme de terre");
+
+//exercice Java01 WHILE
 
 //        int resulta=0;
 //        int compteur =1;
@@ -162,7 +145,7 @@ public class Main {
 //        }
 //        System.out.println(" entier "+resulta);
 
-//exerciceJava01 repeter
+//exerciceJava01 FOR
 
 //        int resultat=0;
 //        int valeur_saisi;
@@ -174,7 +157,7 @@ public class Main {
 //        }
 //        System.out.println(" TGCM "+resultat);
 
-        //exercice répéter
+//exerciceJava01 DO
 
 //        int resultat = 0;
 //        int valeur_saisi;
@@ -188,7 +171,8 @@ public class Main {
 //        } while (compteur <= valeur_saisi);
 //
 //        System.out.println(" TGCM " + resultat);
-//exerciceJava02While
+
+//exerciceJava02 While
 //
 //        int resultat=1;
 //        int compteur;
@@ -223,9 +207,9 @@ public class Main {
 //        else if (variabldelta == 0) {
 //            resultat = ((double) -variableb / (2 * variablea));
 //            System.out.println("il y a une solution double pour cette équation " + resultat);
-//
 //        } else
-//        {System.out.println("il y a 2 solutions pour cette équation " + (-variableb + (Math.sqrt(variabldelta) / 2 * variablea)) +" et "+ (-variableb - (Math.sqrt(variabldelta) / 2 * variablea)));
+//        {System.out.println("il y a 2 solutions pour cette équation " + (-variableb +
+//        (Math.sqrt(variabldelta) / 2 * variablea)) +"et "+ (-variableb - (Math.sqrt(variabldelta) / 2 * variablea)));
 //        }
 //        int variablea;
 //        int variableb;
@@ -237,6 +221,7 @@ public class Main {
 //    System.out.println("Puisance de "+variablea + " est " + (Math.pow(variablea,variableb)));
 
 // Exercice 5
+
 //        Scanner sc = new Scanner(System.in);
 //        int[] myArray = {-10, -5, 0, 10, 15, 20, 25, 30, 40, 50};
 //        int indiceBas = 0;
@@ -261,24 +246,43 @@ public class Main {
 //            }
 //            indiceMilieu = (indiceBas + indiceHaut) / 2;
 //        }
-//        if (flag) {
+//        if (!flag) {
 //            System.out.println("la valeur est dans le tableau");}
 //        else System.out.println("la valeur nest pas dans le tableau");
+
 // Exercice 6
-    Scanner sc = new Scanner(System.in);
-    int resultat=1;
-    int valeur;
-        System.out.println("factoriel :");
-        valeur = sc.nextInt();
-    for (int i = 1; i <= valeur; i++) {resultat*=i;}
-    int[] tabentier=new int[11];
-    int[] tabmatrix=new int[2];
-    int indicecolonne;
-    int x;
+
+        Scanner sc = new Scanner(System.in);
+        int resultat = 1;
+        int valeur = 1;
+        int indiceColonne = 0;
+        int indiceLigne = 0;
+        int x;
+
+        int[][] tableauFactorielle = new int[2][10];
+        for (int i = 0; i < tableauFactorielle.length; i++) {
+            tableauFactorielle[i][0] = i + 1;
+        }
+        for (int i = 0; i < tableauFactorielle.length; i++) {
+            tableauFactorielle
+                    [i][1] = factorielle(tableauFactorielle[0][i]);
+        }
+        System.out.println("factoriel entre 1 et 10:");
+        x = sc.nextInt();
+        if (x < 1 || x > 10) {
+            System.out.println("la valeur doit etre compris entre 1 et 10 ");
+        } else {
+            int resulta = tableauFactorielle[x - 1][1];
+        }
+        System.out.println("La factorielle de " + x + " est :  " + resultat);
 
 
-
+        }
     }
-
+public static int factorielle ( int n ){
+    int resultat = 1;
+    for (int i = 2; i <= n; i++) {
+        resultat *= i;
     }
-
+    return resultat;
+}
